@@ -35,11 +35,12 @@ import org.apache.uima.util.FileUtils;
 import org.apache.uima.util.Progress;
 import org.apache.uima.util.ProgressImpl;
 
-/**
+/**Based on original collection reader, add its function to read in single file
+ * 
  * A simple collection reader that reads documents from a directory in the filesystem. It can be
  * configured with the following parameters:
  * <ul>
- * <li><code>InputDirectory</code> - path to directory containing files</li>
+ * <li><code>InputDirectory</code> - path to directory containing files/ path to single file</li>
  * <li><code>Encoding</code> (optional) - character encoding of the input files</li>
  * <li><code>Language</code> (optional) - language of the input documents</li>
  * </ul>

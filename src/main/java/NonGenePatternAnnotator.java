@@ -19,6 +19,11 @@ import com.aliasi.chunk.Chunking;
 import com.aliasi.chunk.NBestChunker;
 import com.aliasi.util.AbstractExternalizable;
 import com.aliasi.util.ScoredObject;
+/**
+ * In this annotator, it searches for some pre-defined patterns  <br>
+ * For each nongenePattern, saving its sentenceID, start and end locations<br>
+ * @generated
+ */
 public class NonGenePatternAnnotator extends JCasAnnotator_ImplBase{
 	private Pattern[] mPatterns;
 	private int CalculateNonSpace(int loc, String str){

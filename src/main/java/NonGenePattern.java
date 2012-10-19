@@ -11,7 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 /** 
  * Updated by JCasGen Wed Oct 17 19:03:21 EDT 2012
- * XML source: /home/shuhaoyu/workspace/hw1-shuhaoy/src/main/resources/descriptor/GenecasConsumer.xml
+ * XML source: /home/shuhaoyu/workspace/hw1-shuhaoy/src/main/resources/descriptor/GenecasConsumer.xml<br>
+ * This is the type for the nonGenePattern <br>
  * @generated */
 public class NonGenePattern extends Annotation {
   /** @generated

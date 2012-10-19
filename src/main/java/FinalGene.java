@@ -12,6 +12,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 /** 
  * Updated by JCasGen Wed Oct 17 19:03:21 EDT 2012
  * XML source: /home/shuhaoyu/workspace/hw1-shuhaoy/src/main/resources/descriptor/GenecasConsumer.xml
+ * This is the type for the filtered final output
  * @generated */
 public class FinalGene extends Annotation {
   /** @generated

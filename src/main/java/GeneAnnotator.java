@@ -16,6 +16,11 @@ import com.aliasi.chunk.Chunking;
 import com.aliasi.chunk.NBestChunker;
 import com.aliasi.util.AbstractExternalizable;
 import com.aliasi.util.ScoredObject;
+/**
+ * In this annotator, it use LingPipe to extract GeneTag <br>
+ * For each geneTag, saving its sentenceID, start and end locations<br>
+ * @generated
+ */
 public class GeneAnnotator extends JCasAnnotator_ImplBase{
 	private Pattern mSentenceID;
 	private int CalculateNonSpace(int loc, String str){

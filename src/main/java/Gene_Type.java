@@ -14,6 +14,7 @@ import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
  * Updated by JCasGen Wed Oct 17 19:03:21 EDT 2012
+ * This is the type for LingPipe to collect sequence
  * @generated */
 public class Gene_Type extends Annotation_Type {
   /** @generated */

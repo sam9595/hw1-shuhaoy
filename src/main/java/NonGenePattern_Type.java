@@ -13,8 +13,9 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Wed Oct 17 19:03:21 EDT 2012
- * @generated */
+ * Updated by JCasGen Wed Oct 17 19:03:21 EDT 2012 <br>
+ * This is the type for the nonGenePattern <br>
+ * */
 public class NonGenePattern_Type extends Annotation_Type {
   /** @generated */
   @Override

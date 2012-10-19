@@ -1,5 +1,6 @@
 import java.util.Iterator;
 
+
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_component.JCasAnnotator_ImplBase;
 import org.apache.uima.cas.FSIndex;
@@ -8,6 +9,11 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.tutorial.DateAnnot;
 import org.apache.uima.tutorial.RoomNumber;
 import org.apache.uima.tutorial.TimeAnnot;
+/**
+ * In this annotator, it get the result from LingPipe and NonGenePattern <br>
+ * Usr LingPipe as base and filter out sequence in NonGenePattern <br>
+ * @generated
+ */
 public class FinalGeneAnnotator extends JCasAnnotator_ImplBase{
 	  public void initialize(UimaContext aContext) throws ResourceInitializationException {
 		    super.initialize(aContext);

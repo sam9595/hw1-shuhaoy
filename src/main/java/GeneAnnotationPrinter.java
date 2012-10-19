@@ -36,8 +36,9 @@ import org.apache.uima.resource.ResourceProcessException;
 import org.apache.uima.util.ProcessTrace;
 
 /**
- * An example of CAS Consumer. <br>
- * AnnotationPrinter prints to an output file all annotations in the CAS. <br>
+ * CAS Consumer for GeneTag. <br>
+ * GeneAnnotationPrinter prints the format as specified. <br>
+ * Print out each GeneTag by sentenceID |start|end| GeneTag
  * Parameters needed by the AnnotationPrinter are
  * <ol>
  * <li> "outputFile" : file to which the output files should be written.</li>
