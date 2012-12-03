@@ -48,7 +48,8 @@ public class GeneAnnotator extends JCasAnnotator_ImplBase{
 		PosTagNamedEntityRecognizer GeneTagRec;
 		int offset_cumu = 0;
 		String[] lines = docText.split(System.getProperty("line.separator"));
-		File modelFile = new File("src/ne-en-bio-genetag.HmmChunker");
+		//File modelFile = new File("src/ne-en-bio-genetag.HmmChunker");
+		File modelFile = new File("ne-en-bio-genetag.HmmChunker");
 		Chunker chunker = null;
 		Chunking chunking;
 		Chunk[] Chunkarray;
